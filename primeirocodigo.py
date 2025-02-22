@@ -16,5 +16,15 @@ print(type(variavel_numero))
 #Agora vou escrever um codigo para identificar o tipo de dado de uma variavel booleana
 
 
-variavel_booleana= 10>3
+variavel_booleana= 10>3 #true
 print(type(variavel_booleana))
+
+
+
+#Estou declarando uma variavel
+meunome='Leo'
+
+
+#Estou imprimindo a informaçao dentro da variavel MEUNOME
+print(meunome)
+
