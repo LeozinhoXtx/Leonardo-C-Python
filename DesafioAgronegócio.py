@@ -1,28 +1,57 @@
-Automatizar=int(input('Quantas Fazendas iram automatizar o relaatorio?:'))
 
-print('Para cada fazenda solicite')
-input('O Nome da fazenda:')
-input('O Nome do responsavel:')
-input('O Tipo de grão colhido:')
-input('A Quantidade colhida(em toneladas):')
+#            DESAFIO     AGRONEGOCIO 
+
+
+
+Automatizar=int(input('Quantas Fazendas iram automatizar o relatorio?:'))
+
+print('Para cada Relatorio.')
+print(f'-'*20)
+input('Digite o nome da fazenda:')
+input('Digite o nome do responsavel:')
+input('Digite o tipo de grão:')
+input('Digite a quantidade colhida(em toneladas):')
+
+
+
 
 for f in range(Automatizar):
     input(f"Dados Da Fazenda:{f+1}")
+
     
     Fazenda=input('Fazenda:')
-    Resultado_1=Fazenda.center(30,'*')
-    print(Resultado_1)
+    Resultado_fazenda=Fazenda.center(30,'*')
+    print(Resultado_fazenda)
 
+    
     responsavel=input('Responsavel:')
-    depois_1=responsavel.title()
-    print(depois_1)
+    resul_responsavel=responsavel.title()
+    print(resul_responsavel)
+
+    
 
     Grão=input('Grao:')
     maiuscula=Grão.upper()
     print(maiuscula)
 
-    Quantiades=input('Quantidade Colhida:')
-    print(f'{Quantiades:,}')
+    Quantidades=int(input('Quantidade Colhida:'))
+    print(f"Valor formatado: {Quantidades:,.2f}")
+
+
+
+
+
+Safra=1000
+
+
+if Quantidades > Safra:
+    print("Status:Excenlente safra!")
+
+
+else:
+    print("Status:Produçao dentro da média!")
+
+
   
     
 
