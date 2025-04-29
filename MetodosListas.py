@@ -41,6 +41,13 @@ print(len(Lista_numeros_aleatorios))
 print(Lista_numeros_aleatorios.index(9))
 
 
+#ITERAVEL=Posso acessar item a item de uma lista separadamente
+
+
+nomes=['n1','n2','n3']
+for n in (nomes):
+   print(n)
+
 
 
 
